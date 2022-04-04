@@ -1,0 +1,65 @@
+.modals{
+    display: grid;
+    place-items: center;
+    position: absolute; 
+    z-index: 6;
+}
+
+.modals::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cls_button{
+    font-size: 90px;
+    color: black;
+    display: grid;
+    place-items: center;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.cls_button::before{
+    content: "";
+    display: inline-block;
+    border-left:12px solid;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin-right: -0.08em;
+}
+
+
+
+.video{
+    width: 880px;
+  
+}
+
+.modal-cls-button,.modals{
+    cursor: pointer ;
+}
+
+.video-outer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
