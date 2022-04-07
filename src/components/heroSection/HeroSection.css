@@ -1,0 +1,45 @@
+.get-in-touch-btn button{
+    padding: 13px 31px;
+    border: 2px solid #F85A40;
+    background-color: #F85A40 !important;
+}
+
+.get-in-touch-btn:hover button{
+    background-color: transparent !important;
+    border: 2px solid white;
+}
+
+.hero-image1{
+    position: absolute ;
+    top: 70px;
+    left: 20px ;
+}
+
+.hero-image2{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+.hero-box{
+    background-color: #009080;
+}
+
+@media screen and (max-width: 992px){
+    
+    .hero-image1-outer,.hero-image2-outer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-image1-outer,.hero-image2-outer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .hero-box-col{
+        flex-direction: column;
+    }
+    }

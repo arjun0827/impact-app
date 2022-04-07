@@ -1,0 +1,46 @@
+.accordion-button{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.accordion-button:focus, .accordion-button:not(.collapsed){
+    box-shadow: none;
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (max-width: 992px){
+    .mobile-list,.btn-close{
+        display: block !important;
+    }
+    .mobile-view{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .offcanvas{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .offcanvas{
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .offcanvas{
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .offcanvas{
+        width: 96% !important;
+    }
+}
+
+

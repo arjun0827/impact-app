@@ -1,7 +1,7 @@
 // import Modal from "../modalSection/Modal";
 import {MdOutlineClose} from 'react-icons/md'
 import { useState } from "react";
-import "./modal.css";
+import "./WhyGrowingSection.css";
 
 const GrowingSection = () => {
   const [modalValue , setModalValue] = useState(false);

@@ -4,6 +4,7 @@ import { Autoplay, Navigation,Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import './SwiperSection.css'
 
 const SwiperSection = () => {
   return (
@@ -28,7 +29,7 @@ const SwiperSection = () => {
           <div className="slide_container">
             <div className="pt-5 pb-4">
               <img
-                className="slider-img border border-5 border-white shadow-sm"
+                className="slider-img border border-5 border-white shadow-lg"
                 src="/img/person_1.jpg"
                 alt=""
               />
@@ -47,7 +48,7 @@ const SwiperSection = () => {
           <div className="slide_container">
             <div className="pt-5 pb-4">
               <img
-                className="slider-img border border-5 border-white shadow-sm"
+                className="slider-img border border-5 border-white shadow-lg"
                 src="/img/person_2.jpg"
                 alt=""
               />
@@ -66,7 +67,7 @@ const SwiperSection = () => {
           <div className="slide_container">
             <div className="pt-5 pb-4">
               <img
-                className="slider-img border border-5 border-white shadow-sm"
+                className="slider-img border border-5 border-white shadow-lg"
                 src="/img/person_3.jpg"
                 alt=""
               />

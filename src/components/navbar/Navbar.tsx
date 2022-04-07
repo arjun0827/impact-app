@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import {FaChevronDown,FaChevronRight} from 'react-icons/fa';
 import MobileOffcanvas from "../mobileOffcanvas/MobileOffcanvas";
+import './Navbar.css'
 
 const Navbar = () => {
   return (
@@ -41,12 +42,12 @@ const Navbar = () => {
               <span className="mobile-offcanvas"><MobileOffcanvas /></span>
               <ul className="list-unstyled d-flex justify-content-end w-100">
                 <li className="px-3">
-                  <Link to="/" className="text-white text-decoration-none">
+                  <Link to="/" className="link-items text-white text-decoration-none">
                     Home
                   </Link>
                 </li>
                 <li className="dropdown px-3 pop-over">
-                  <Link className=" text-white text-decoration-none" to="/">
+                  <Link className="link-items  text-decoration-none" to="/">
                     Dropdown 
                     <span className="ps-2"><FaChevronDown /></span>
                   </Link>
@@ -83,22 +84,22 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="px-3">
-                  <Link to="/" className="text-white text-decoration-none">
+                  <Link to="/" className="link-items  text-decoration-none">
                     Services
                   </Link>
                 </li>
                 <li className="px-3">
-                  <Link to="/" className="text-white text-decoration-none">
+                  <Link to="/" className="link-items  text-decoration-none">
                     Blog
                   </Link>
                 </li>
                 <li className="px-3">
-                  <Link to="/" className="text-white text-decoration-none">
+                  <Link to="/" className="link-items  text-decoration-none">
                     About
                   </Link>
                 </li>
                 <li className="px-3">
-                  <Link to="/" className="text-white text-decoration-none">
+                  <Link to="/" className="link-items  text-decoration-none">
                     Contact Us
                   </Link>
                 </li>

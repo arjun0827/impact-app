@@ -1,4 +1,5 @@
 import { MdLayers, MdPhonelink, MdLocalMall } from "react-icons/md";
+import './HeroSection.css';
 
 const HeroSection = () => {
   const backgroundImg1 = {
@@ -17,10 +18,10 @@ const HeroSection = () => {
     <div className="hero">
       <div className="container-fluid container-xl position-relative">
         <div className="py-5">
-          <div className="py-4 d-flex"></div>
+          <div className="py-4 d-flex "></div>
               <div className="text-white pt-5 px-mx-3 px-4 text-center" style={{ maxWidth: 700, margin: '0 auto' }}>
                 <h1 className="fw-bold px-md-3 px-0">Let's growth your business with us</h1>
-                <p className="px-md-5 px-5 mx-3 pt-2">
+                <p className="px-md-5 px-0 mx-3 pt-2">
                   Sapiente, assumenda suscipit autem ab expedita dignissimos,
                   corrupti iusto nobis ex aperiam cumque reprehenderit, saepe
                   culpa qui eos ullam minima quo, consequuntur.
@@ -38,13 +39,13 @@ const HeroSection = () => {
         </div>
 
         <div className="pt-5">
-          <div className="hero-box py-5 px-5 rounded-top">
+          <div className="hero-box  py-5 px-5 rounded-top">
             <div className="row">
-              <div className="col-lg-4 text-white d-flex">
+              <div className="col-lg-4 text-white d-flex hero-box-col">
                 <div>
                   <MdLayers size={50} />
                 </div>
-                <div className="ps-4">
+                <div className="ps-0 ps-sm-4 ">
                   <h5 className="fw-bold">Design</h5>
                   <p className="m-0">
                     Sapiente, assumenda suscipit autem ab expedita dignissimos,
@@ -53,11 +54,11 @@ const HeroSection = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4 text-white d-flex">
-                <div>
+              <div className="col-lg-4 text-white d-flex hero-box-col">
+                <div className="pt-sm-0 pt-4">
                   <MdPhonelink size={50} />
                 </div>
-                <div className="ps-4">
+                <div className="ps-0 ps-sm-4 ">
                   <h5 className="fw-bold">Applications</h5>
                   <p className="m-0">
                     Sapiente, assumenda suscipit autem ab expedita dignissimos,
@@ -66,11 +67,11 @@ const HeroSection = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4 text-white d-flex">
-                <div>
+              <div className="col-lg-4 text-white d-flex hero-box-col">
+                <div className="pt-sm-0 pt-4">
                   <MdLocalMall size={50} />
                 </div>
-                <div className="ps-4 ms-1">
+                <div className="ps-0 ps-sm-4 ms-1">
                   <h5 className="fw-bold">eCommerce</h5>
                   <p className="m-0">
                     Sapiente, assumenda suscipit autem ab expedita dignissimos,

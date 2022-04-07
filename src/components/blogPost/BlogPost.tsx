@@ -1,4 +1,5 @@
 import SingleBlog from "../singleBlog/SingleBlog";
+import './BlogPost.css'
 
 const BlogPost = () => {
   return (

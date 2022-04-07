@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Link } from "react-router-dom"
 import {FiChevronRight} from "react-icons/fi"
+import './SingleBlog.css'
 
 const SingleBlog = ({img } : {img:string} ) => {
 

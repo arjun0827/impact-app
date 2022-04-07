@@ -1,3 +1,5 @@
+import './why-us-section.css';
+
 const UsSection = () => {
   return (
     <div className="why-us-section py-5">

@@ -1,3 +1,5 @@
+import './MobileOffcanvas.css'
+
 const MobileOffcanvas = () => {
 	return (
 		<div>

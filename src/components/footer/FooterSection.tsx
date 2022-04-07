@@ -6,6 +6,7 @@ import {
   FaPinterest,
   FaDribbble,
 } from "react-icons/fa";
+import './FooterSection.css'
 
 const FooterSection = () => {
   return (
@@ -22,25 +23,40 @@ const FooterSection = () => {
                 Vokalia and Consonantia, there live the blind texts.
               </p>
 
-              <div>
-                <span className="social-icons">
-                  <FaInstagram color="white" />
-                </span>
-                <span className="social-icons">
-                  <FaTwitter color="white" />
-                </span>
-                <span className="social-icons">
-                  <FaFacebook color="white" />
-                </span>
-                <span className="social-icons">
-                  <FaLinkedinIn color="white" />
-                </span>
-                <span className="social-icons">
-                  <FaPinterest color="white" />
-                </span>
-                <span className="social-icons">
-                  <FaDribbble color="white" />
-                </span>
+              <div className="d-flex">
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaInstagram color="white" />
+                  </span>
+                </div>
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaTwitter color="white" />
+                  </span>
+                </div>
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaFacebook color="white" />
+                  </span>
+                </div>
+
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaLinkedinIn color="white" />
+                  </span>
+                </div>
+
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaPinterest color="white" />
+                  </span>
+                </div>
+
+                <div className="social-icons d-flex justify-content-center ">
+                  <span>
+                    <FaDribbble color="white" />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -80,7 +96,10 @@ const FooterSection = () => {
             </div>
           </div>
         </div>
-        <p className="text-center text-secondary pt-5">Copyright ©2022. All Rights Reserved. — Designed with love by <span className="text-white">Untree.co • License</span></p>
+        <p className="text-center text-secondary pt-5">
+          Copyright ©2022. All Rights Reserved. — Designed with love by{" "}
+          <span className="text-white">Untree.co • License</span>
+        </p>
       </div>
     </footer>
   );

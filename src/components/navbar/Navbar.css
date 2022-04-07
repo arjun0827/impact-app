@@ -1,0 +1,71 @@
+.navbar,.hero{
+    background-color: rgb(0,131,116) !important;
+}
+
+.link-items{
+    color: rgba(255, 255, 255, 0.7) ;
+}
+
+.link-items:hover{
+    color: white;
+}
+
+.offcanvas-body{
+    height: 20px;
+}
+
+.offcanvas-header,.offcanvas-backdrop.show,.mobile-list,.btn-close{
+    display: none !important;
+}
+
+.pop-over{
+    position: relative;
+    transition: 0.2s;
+}
+
+.content,.content2{
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+    width: 180px;
+    height: 150px;
+    z-index: 1;
+}
+
+.content{
+    bottom: -200px;
+    left: 0px;
+}
+
+.content2{
+    bottom: -80px;
+    right: -180px;
+}
+
+.content .content-item:hover,.content2 .content-item:hover{
+    color: red !important;
+}
+
+
+.pop-over:hover .content,.pop-over2:hover .content2{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0%) translateY(-20px);
+}
+
+@media screen and (max-width: 992px){
+    .offcanvas{
+        width: 31%;
+    }
+    .offcanvas-backdrop.show,.mobile-list,.btn-close{
+        display: block !important;
+    } 
+}
+
+@media screen and (max-width: 320px){
+    .offcanvas {
+        width: 96%;
+    }
+}
